@@ -18,4 +18,5 @@ part 'serializers.g.dart';
   Thumbnails,
   Thumbnail,
 ])
-final Serializers serializers = (_$serializers.toBuilder()..addPlugin(StandardJsonPlugin())).build();
+final Serializers serializers = 
+  (_$serializers.toBuilder()..addPlugin(StandardJsonPlugin())).build();
